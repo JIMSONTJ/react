@@ -1,0 +1,17 @@
+.thankimg_container{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:1.5rem;
+}
+
+.selected{
+    background-color: gray;
+    color:orange;
+    border-radius: 50px;
+    padding:10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

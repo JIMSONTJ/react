@@ -1,0 +1,52 @@
+.star img{
+    border-radius: 50%;
+       
+}
+.title{
+    color:white;
+    margin:2rem 0 1rem 0
+}
+.text{
+    color:grey;
+    margin-bottom: 1.5rem;
+    
+}
+.rating{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    cursor: pointer;
+
+
+}
+.rating_container{
+    text-align: center;
+    height: 45px;
+    width:45px;
+    border-radius: 50%;
+    background-color: grey;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.rating_container.active{
+    color:red;
+    background-color: grey;
+}
+.rating_container:hover{
+    background-color: orange;
+    color:white;
+}
+.submit_btn{
+    width:100%;
+    padding:10px;
+    background-color: orange;
+    color:white;
+    border-radius: 25px;
+}
+.submit_btn:hover{
+    background-color: azure;
+    color:black;
+}
